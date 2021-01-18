@@ -3,59 +3,7 @@
   <head>
     <title>WEB1 - JAVASCRIPT</title>
     <meta charset="utf-8" />
-    <style>
-      a {
-        color: black;
-        text-decoration: none;
-      }
-      /* id는 하나 밖에 올 수 없음 */
-      h1 {
-        font-size: 60px;
-        text-align: center;
-        border-bottom: 1px solid gray;
-        margin: 0;
-        padding: 20px;
-      }
-      h2 {
-        text-align: center;
-      }
-      ol {
-        border-right: 1px solid gray;
-        width: 100px;
-        margin: 0;
-        padding: 20px;
-      }
-      div {
-        border: 0px solid gray;
-        border-top: 0px;
-      }
-      #grid {
-        border: 0px solid gray;
-        display: grid;
-        grid-template-columns: 150px 1fr;
-      }
-      #grid ol {
-        padding-left: 33px;
-      }
-      #article {
-        padding-left: 25px;
-      }
-      @media(max-width:800px){
-        #grid {
-        border: 0px solid gray;
-        display: block;
-        }
-        ol {
-        border-right: 0px solid gray;
-        width: 100px;
-        margin: 0;
-        padding: 20px;
-        }
-        h1{
-          border-bottom: 0px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -65,7 +13,7 @@
         <li><a href="2.html">CSS</a></li>
         <li><a href="3.html">JavaScript</a></li>
       </ol>
-      <div>
+      <div id="article">
         <h2>JAVASCRIPT이란 무엇인가?</h2>
         <p>
           <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
@@ -75,7 +23,6 @@
           applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute
           it.
         </p>
-        <p style="margin-top: 45px">
           Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[8] JavaScript enables interactive web pages and is an essential
           part of web applications. The vast majority of websites use it for client-side page behavior,[9] and all major web browsers have a dedicated JavaScript
           engine to execute it. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application
