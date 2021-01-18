@@ -40,6 +40,21 @@
       #article {
         padding-left: 25px;
       }
+      @media(max-width:800px){
+        #grid {
+        border: 0px solid gray;
+        display: block;
+        }
+        ol {
+        border-right: 0px solid gray;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        }
+        h1{
+          border-bottom: 0px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -49,7 +64,7 @@
     <div id="grid">
       <ol>
         <li>
-          <a href="1.html" class="saw">HTML</a>
+          <a href="1.html">HTML</a>
         </li>
         <li>
           <a href="2.html" class="saw" id="active">CSS</a>
